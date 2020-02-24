@@ -1,7 +1,7 @@
 """
 File: step_1.py
 Author: Maya Varma
-Usage: python step_1.py <prefix>
+Usage: python3 step_1.py <prefix>
 Input: experiment name is the name of the feature selection procedure
 Description: Step 1 of the PLINK-LD filtering procedure. Read all bim files and assign each variant a unique identifier
 """

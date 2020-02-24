@@ -48,6 +48,8 @@ def computeLDScores(experiment_name, prefix, chromToId1, chromToId2, set_num1, s
             if('Error' in output[-1]): continue
             pairToLD_D[(key, variant0, variant1)]=[]
             pairToLD_R2[(key, variant0, variant1)]=[]
+            #Please note that the following section is hard-coded to read in the output of the plink command
+            #This might differ based on operating system and/or plink version
             if(len(output)>24 and output[-24]=="Solution #1:"): #two solutions
                 chromToLD_D[key].append(float(output[-23].split()[-1]))
                 chromToLD_D[key].append(float(output[-11].split()[-1]))

@@ -1,7 +1,7 @@
 """
 File: maxflow.py
 Author: Maya Varma
-Usage: python maxflow.py $set_order
+Usage: python3 maxflow.py $set_order
 Inputs: set_order is the order of variant sets expressed as 1_2_3_4_5
 Description: Runs the maxflow algorithm.
 """

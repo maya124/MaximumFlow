@@ -7,7 +7,7 @@ This repository contains the source code for implementing maximum flow for dimen
 
 ## Implementation
 
-This code base is implemented in Python 2.7.5 and requires the following libraries: numpy (1.16.4). Other necessary libraries include: bcftools (1.8), plink2 (2.0).
+This code base is implemented in Python 3.6.1 and requires the following libraries: numpy (1.16.4). Other necessary libraries include: bcftools (1.8), plink2 (2.0).
 
 
 Begin by performing k-fold cross-validation with any l1-regularized machine learning algorithm on a high-dimensional whole genome dataset. In this implementation, we use k=5. Isolate all predictive variants (nonzero coefficient scores) from each fold and create an input folder with k files, each in the following tab-delimited format:  

@@ -1,7 +1,7 @@
 """
 File: step_0.py
 Author: Maya Varma
-Usage: python step_0.py <input folder>
+Usage: python3 step_0.py <input folder>
 Input: Input folder contains a group of text files with variants and corresponding coefficient scores for each cross fold. 
 Description: Step 0 of the PLINK-LD filtering procedure. Outputs a file called variant_ranges.tsv with all variants from the cross fold analysis.
 Output: variant_ranges.tsv, vcf_input.txt
