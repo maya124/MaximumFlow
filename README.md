@@ -48,7 +48,9 @@ Finally, run the maximum flow algorithm to identify clustered groups of variants
 python maxflow.py 1_2_3_4_5
 ```
 
-Results are stored in "results.txt" and "path.txt".
+Results are stored in "results.txt" and "path.txt". 
+
+Validation code to set up the machine learning classifier is provided in validation.ipynb. Please note that some cells are nonfunctional, since large datasets cannot be uploaded to Github. Thus, please modify the code and dependent filepaths to suit your needs. 
 
 
 ## Acknowledgments
